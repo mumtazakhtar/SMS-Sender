@@ -1,0 +1,14 @@
+doctype html
+
+head
+  title  Sending sms via cellact Api
+section
+  h2 Sending SMS
+  form(action='/sendsms')
+    label Phone Number
+    input(name='to')
+    label Message
+    textarea(name='msg') Testing from JavaScript using cellact API!
+    span
+    button send sms
+
